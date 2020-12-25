@@ -80,6 +80,6 @@ Code: <https://github.com/midjji/pnp/blob/master/lambdatwist/lambdatwist.p3p.h>
 
 ## Contributors
 
-- Gaku Nakano, Central Research Labratories, NEC Corporation.  
+- Gaku Nakano, Central Research Laboratories, NEC Corporation.  
 <g-nakano@nec.com>  
 <https://www.nec.com/en/global/rd/people/gaku_nakano.html>
