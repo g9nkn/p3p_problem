@@ -4,7 +4,8 @@
 
 This repository is an official MATLAB implementation of the paper "A Simple Direct Solution to the Perspective-Three-Point Problem", BMVC2019 [(pdf)](https://bmvc2019.org/wp-content/uploads/papers/0533-paper.pdf) [\[1\]](#reference).
 Other p3p solvers [\[2-6\]](#reference) evaluated in the paper, ported from C++ to MATLAB, are also included.
-For a fair comparison, a quartic equation solver by L. Kneip is used for all solvers except for LambdaTwist [\[6\]](#reference).
+For a fair comparison, a quartic equation solver by L. Kneip is used for all solvers except for LambdaTwist [\[6\]](#reference).  
+For Japanese readers: 日本語によるP3P問題の解説は私の博士論文 [\[7\]](#reference) をご一読ください．
 
 ## License
 
@@ -78,8 +79,12 @@ Code: <https://github.com/atsuhikobanno/p3p>
 6. M. Persson and K. Nordberg, "Lambda Twist: An Accurate Fast Robust Perspective Three Point (P3P) Solver," ECCV2018.  
 Code: <https://github.com/midjji/pnp/blob/master/lambdatwist/lambdatwist.p3p.h>
 
+7. 中野学，Perspective-n-Point問題とその派生問題に対する安定かつ高速な解法に関する研究，博士論文，筑波大学，2021年3月．
+<https://jpn.nec.com/rd/people/docs/doctoral_thesis_nakano.pdf>
+
 ## Contributors
 
 - Gaku Nakano, Central Research Laboratories, NEC Corporation.  
 <g-nakano@nec.com>  
-<https://www.nec.com/en/global/rd/people/gaku_nakano.html>
+(ENG) <https://www.nec.com/en/global/rd/people/gaku_nakano.html>  
+(JPN) <https://jpn.nec.com/rd/people/gaku_nakano.html>
