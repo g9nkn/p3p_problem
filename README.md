@@ -10,7 +10,7 @@ For Japanese readers: 日本語によるP3P問題の解説は私の博士論文 
 ## License
 
 This software is released under the NEC Corporation License.
-See [LICENSE](https://github.com/g9nkn/p3p_problem/LICENSE) before using the code. If you use this code, please cite the paper.
+See [LICENSE](https://github.com/g9nkn/p3p_problem/blob/main/LICENSE) before using the code. If you use this code, please cite the paper.
 
 ```bibtex
 @inproceedings{nakano2019simple,
@@ -24,6 +24,17 @@ See [LICENSE](https://github.com/g9nkn/p3p_problem/LICENSE) before using the cod
 ```
 
 For commercial use, please contact Gaku Nakano \<g-nakano@nec.com\>.
+
+## Errata in the paper
+**Eq. (16)**  
+<img src=https://latex.codecogs.com/gif.latex?%5Cbg_white%20f_2%3D%5Cmathbf%7Bm%7D_2%5E%5Cmathsf%7BT%7D%5Cmathbf%7Bm%7D_3>  
+should be  
+<img src=https://latex.codecogs.com/gif.latex?%5Cbg_white%20f_2%3D-%5Cmathbf%7Bm%7D_2%5E%5Cmathsf%7BT%7D%5Cmathbf%7Bm%7D_3>
+
+**Eq. (24)**  
+<img src=https://latex.codecogs.com/gif.latex?%5Cbg_white%20px%5E2&plus;%28%5Cmathbf%7Bm%7D_2%5E%5Cmathsf%7BT%7D%5Cmathbf%7Bm%7D_3%29xy&plus;%5Cldots>  
+should be  
+<img src=https://latex.codecogs.com/gif.latex?%5Cbg_white%20px%5E2-%28%5Cmathbf%7Bm%7D_2%5E%5Cmathsf%7BT%7D%5Cmathbf%7Bm%7D_3%29xy&plus;%5Cldots>
 
 ## Usage
 
